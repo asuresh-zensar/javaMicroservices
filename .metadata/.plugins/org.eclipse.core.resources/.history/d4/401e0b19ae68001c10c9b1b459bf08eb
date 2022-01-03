@@ -1,0 +1,8 @@
+package com.zensar.olx.config;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient("")
+public interface OlxMasterDataClient {
+
+}

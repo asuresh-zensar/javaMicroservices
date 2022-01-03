@@ -1,0 +1,11 @@
+package com.zensar.olx.config;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient("GATEWAY-SERVICE")
+public interface OlxMasterDataClient {
+
+	@GetMapping("/masterdataapi/category")
+	String getCategory();
+}

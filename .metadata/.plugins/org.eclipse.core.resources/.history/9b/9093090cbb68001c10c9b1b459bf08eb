@@ -1,0 +1,22 @@
+package com.zensar.olx.resource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.zensar.olx.config.OlxMasterDataClient;
+
+@RestController
+@RequestMapping("/advertise")
+public class OlxAdvertiseRestresource {
+	
+	@Autowired
+	private OlxMasterDataClient client;
+
+	@GetMapping("/")
+	public String getAdvertisement() {
+		System.out.println(client.getCategory());
+		return "know it";
+	}
+}

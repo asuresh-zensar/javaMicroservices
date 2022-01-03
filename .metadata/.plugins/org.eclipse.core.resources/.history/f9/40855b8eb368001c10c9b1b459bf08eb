@@ -1,0 +1,7 @@
+package com.zensar.olx.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OlxCategoryRepository extends JpaRepository<T, ID> {
+
+}

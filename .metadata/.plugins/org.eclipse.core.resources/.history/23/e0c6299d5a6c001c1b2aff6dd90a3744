@@ -1,0 +1,5 @@
+package com.zensar.olx.model;
+
+public class AdvertiseResponse {
+
+}

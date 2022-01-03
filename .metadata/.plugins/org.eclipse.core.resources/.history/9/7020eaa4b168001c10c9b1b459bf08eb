@@ -1,0 +1,15 @@
+package com.zensar.olx.resource;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/advertise")
+public class OlxAdvertiseRestresource {
+
+	@GetMapping("/")
+	public String getAdvertisement() {
+		return "know it";
+	}
+}

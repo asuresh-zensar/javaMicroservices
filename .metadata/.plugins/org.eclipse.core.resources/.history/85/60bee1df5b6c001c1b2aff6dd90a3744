@@ -1,0 +1,18 @@
+package com.zensar.olx.config;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.zensar.olx.model.AdvStatus;
+import com.zensar.olx.model.CategoryResponse;
+
+@FeignClient("GATEWAY-SERVICE")
+public interface OlxMasterDataClient {
+
+	@GetMapping("/masterdataapi/category")
+	List<CategoryResponse> getCategory();
+	@GetMapping("/masterdataapi/status")
+	public List<AdvStatus> getstatus();
+}

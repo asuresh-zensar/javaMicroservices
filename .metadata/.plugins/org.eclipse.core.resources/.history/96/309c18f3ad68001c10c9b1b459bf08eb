@@ -1,0 +1,5 @@
+package com.zensar.olx.config;
+
+public interface OlxMasterDataClient {
+
+}

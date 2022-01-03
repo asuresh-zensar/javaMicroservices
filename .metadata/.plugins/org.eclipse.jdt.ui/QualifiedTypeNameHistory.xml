@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+<fullyQualifiedTypeName name="com.zensar.olx.config.OlxMasterDataClient"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
+<fullyQualifiedTypeName name="com.zensar.olx.repository.OlxCategoryRepository"/>
+<fullyQualifiedTypeName name="com.zensar.olx.repository.OlxAdvStatusRepository"/>
+<fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+<fullyQualifiedTypeName name="org.springframework.boot.ApplicationArguments"/>
+<fullyQualifiedTypeName name="com.zensar.olx.service.OlxMasterdataService"/>
+<fullyQualifiedTypeName name="com.zensar.olx.model.Categories"/>
+<fullyQualifiedTypeName name="com.zensar.olx.model.CategoryResponse"/>
+<fullyQualifiedTypeName name="com.zensar.olx.restresource.OlxMasterDataResource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.zensar.olx.model.Advertises"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.zensar.olx.service.OlxAdvertiseService"/>
+<fullyQualifiedTypeName name="com.zensar.olx.model.AdvStatus"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+</qualifiedTypeNameHistroy>

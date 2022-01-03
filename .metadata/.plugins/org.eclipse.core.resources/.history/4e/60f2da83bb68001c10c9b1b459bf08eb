@@ -1,0 +1,9 @@
+package com.zensar.olxad.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.zensar.olxad.model.Advertises;
+
+public interface OlxAdvertiserRepository extends JpaRepository<Advertises, Integer>{
+
+}
